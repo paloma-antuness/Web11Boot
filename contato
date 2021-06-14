@@ -1,0 +1,145 @@
+<html lang= "pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>PALOMA</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+    <a href="index.html" id="logo" rel="home">
+     <img id="logoimage" src="images/logo/home.png">   
+    </a>
+
+<ul>
+    <li>Início</li>
+    <li>Contato</li>
+    <li></li>
+ </ul>
+
+</nav>
+<header>
+</header>	
+<section>
+	
+</section>
+<footer>
+	<p id="rodape">Por Paloma Antunes</p> 
+</footer>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Lucifer 4Tmp</title>
+    <link rel="stylesheet" href="css/estilo.css">
+  </head>
+
+<!-------CABEÇALHO--não mexer daqui até embaixo -------->
+  <body>
+    <header>
+      <div id="logo">
+        <a href="index.html">
+		
+          <img id="logo" src="images/logo.png" alt="">
+        </a>
+      </div>
+      <nav>
+        <ul id="menu">
+          <li class="item-menu"><a class="link-menu" href="index.html">Início</a></li>
+          <li class="item-menu"><a class="link-menu f" href="filme.html">Filme</a></li>
+          <li class="item-menu"><a class="link-menu l" href="livro.html">Livro</a></li>
+          <li class="item-menu"><a class="link-menu m" href="musica.html">Música</a></li>
+        </ul>
+      </nav>
+    </header>
+<!---- MAIN como teste para formulário----
+
+    <main>
+      <section id="principal">
+        <figure>
+          <img src="images/artista.jpg" alt="">
+        </figure>
+        <div id="sec_ctd">
+          <h1>Paloma Antunes Santana</h1>
+          <p>
+            Quem sou eu?
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore ullam nisi vitae illo ea nobis blanditiis!
+            Ad id architecto optio itaque neque, voluptates, excepturi sunt, impedit officia blanditiis dolor hic.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas velit saepe rem ab sint. Rem molestiae
+            at
+            laudantium voluptatem quam quisquam hic autem ex reprehenderit, ipsa repudiandae eveniet a sunt?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis placeat ratione, quidem error sint dolorem
+            error porro expedita numquam earum ex enim iste natus?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo recusandae consequatur et ratione
+            quasi
+            unde, sequi neque iste tempore iure, est aspernatur, laborum id soluta dicta sapiente cumque enim vero.
+          </p>
+        </div>
+      </section>
+    </main>
+	------------>
+
+<!---- Teste para formulário-------->
+
+ <main>
+<section id="forms">
+       
+        <div id="sec_form">
+          <h1>Olá!</h1>
+          <p>
+            Quem é você?
+            <br>
+           
+            <form method="get" action="envio_dados.php">
+              <input type="text" name="nome" placeholder="Digite seu nome aqui">
+              <input type="e-mail" name="email" placeholder="Digite seu e-mail">
+              <input type="text" name="assunto" placeholder="Digite o assunto aqui">
+              <input type="text" name="texto" placeholder="Digite sua mensagem">
+              <input type="Checkbox" name="Newsletter" placeholder="">
+
+              <input type="submit" name="enviar" value="Enviar">    
+            </form>
+
+          </p>
+        </div>
+      </section>
+ </main>
+
+<!-----IMAGES----------> 
+    <section id="second">
+      <a class="cartaz" href="filme.html">
+        <img class="capa" src="images/filme.jpg" alt="">
+      </a>
+      <a class="cartaz" href="livro.html">
+        <img class="capa"
+          src="images/livro.jpg">
+      </a>
+      <a class="cartaz" href="musica.html">
+        <img class="capa" src="images/musica.jpg">
+      </a>
+    </section>
+
+	<!-----------RODAPE---------->
+    <footer>
+      <div id="contato">
+        <div id="email">
+          <a href="">contato@artista.com</a>
+        </div>
+        <div id="social">
+          <a href="https://www.google.com/search?q=instagram"><img src="images/instagram.png" alt=""></a>
+          <a href="https://www.google.com/search?q=facebook"><img src="images/facebook.png" alt=""></a>
+          <a href="https://www.google.com/search?q=twitter"><img src="images/twitter.png" alt=""></a>
+          <a href="https://www.google.com/search?q=youtube"><img src="images/youtube.png" alt=""></a>
+        </div>
+
+      </div>
+    </footer>
+  </body>
+
+</html>

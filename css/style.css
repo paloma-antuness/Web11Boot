@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Poppins&display=swap');
+body {
+/* <link rel="stylesheet"	 href= "css/style.css">                         
+
+}
+
+/* -----------Acesso Musica-----*/
+#acesso a{
+color: brown;
+font-weight: 800;
+align-items: right;
+flex-direction: right;
+font-size: 15px;
+align-items: right;
+margin: 0 20px 0 20px;
+padding: 5px;
+text-decoration: none;
+background-color: black;
+
+}
+
+/* Acesso filme*/
+#acesso f{
+color: brown;
+font-weight: 800;
+align-items: center;
+flex-direction: right;
+font-size: 15px;
+align-items: center;
+margin: 0 40px 0 40px;
+padding: 10px;
+text-decoration: none;
+background-color: black;
+}
+/* Acesso livro*/
+#acesso l{
+ color: black;  
+  text-decoration: none;
+  padding: 10px;
+  background-color: brown;
+  display: flex;
+  font-size: 50px;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  align-items: right;
+  margin-bottom: 100px;
+}
+
+/* descricao livro*/
+#descricao {
+	width: 200px;
+color: rgb(0, 0, 0);
+background-color: white;
+padding: 10px;
+border: solid 2px;
+border-color: brown;
+margin-bottom: 50px;
+}
+
+
+
+
+ /* Rodape */
+
+#email{
+	max-width: 5px;
+	flex-direction: right;
+ }
+	
+#social img{
+	
+width: 30px;
+display: right;
+}
+
+footer {
+ width: 100%;
+ position: fixed;
+ bottom: 0;
+ right: 0;
+ background: brown;
+ color: white;
+ height: 20 px;
+ display: fixed;
+}
